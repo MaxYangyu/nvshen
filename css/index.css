@@ -20,7 +20,7 @@ header .head {
 }
 header .Activity-Rules {
   position: relative;
-  top: -0.25rem;
+  top: -0.55rem;
   margin: 0 auto;
   width: 6.04rem;
   height: 0.7rem;
@@ -37,7 +37,7 @@ header .Activity-Rules span {
 }
 header .Activity-Rules-info {
   position: relative;
-  top: -0.32rem;
+  top: -0.62rem;
   margin: 0;
   padding: 0;
   width: 6.04rem;
@@ -47,15 +47,15 @@ header .Activity-Rules-info {
   border: 0.04rem solid #ff2ad6;
 }
 header .Activity-Rules-info .info-one {
-  height: 165px;
+  height: 175px;
 }
 header .Activity-Rules-info span {
   display: inline-block;
   padding: 0 0.34rem;
   color: #c02aff;
   font-size: 0.22rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
 }
 header .Activity-Rules-info p {
   font-size: 0.22rem;
@@ -63,7 +63,7 @@ header .Activity-Rules-info p {
   margin: 0;
   padding-left: 0.34rem;
   padding-right: 0.34rem;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.15rem;
   color: #ff2ad6;
 }
 header .foot-img {
@@ -74,6 +74,7 @@ header .foot-img {
   background-size: 100% 100%;
 }
 header .foot-img #btn {
+  width: 0.27rem;
   margin: 0;
   padding: 0;
   display: block;
@@ -87,95 +88,6 @@ header .phb-list {
   background-color: #fff;
   margin: 0 auto;
   margin-top: 1.34rem;
-  /*.tab-content{
-      padding-top: 0.45rem;
-    }*/
-  /*.box{
-      margin-left: 0.34rem;
-      position: relative;
-      .mix{
-        margin-left: 0.68rem!important;
-      }
-
-      .one{
-        background-color: #ffe931;
-      }
-      .number{
-        !*margin-left: .35rem;*!
-        margin-top: 0.5rem;
-        text-align: center;
-
-        display: inline-block;
-        width: 0.35rem;
-        height: 0.35rem;
-        border-radius: 17px;
-        line-height: 0.35rem;
-        color: #000;
-      }
-      .box-img{
-        margin-left: 0.34rem;
-        display: inline-block;
-        width:0.84rem;
-        height:0.84rem;
-        border: 0.01rem solid #df00ff;
-        border-radius: 50%;
-      }
-      .uname{
-        .name{
-          white-space:nowrap;
-          overflow:hidden;
-          text-overflow:ellipsis;
-          span:nth-child(1){
-            padding-left: 0.18rem;
-          }
-          i{
-            padding-left: 0.28rem;
-          }
-          span:nth-child(2){
-
-          }
-        }
-      }
-      .jf{
-        text-align: center;
-      }
-
-
-     !* span:nth-child(2){
-        img:nth-child(1){
-          margin-left: 0.4rem;
-          display: inline-block;
-          width: 0.84rem;
-          height: 0.84rem;
-          border-radius: 0.42rem;
-          border: 0.02rem solid #ff3971;
-          z-index: 99;
-        }
-        img:nth-child(2){
-          left: 1.725rem;
-          position: relative;
-          width: .3rem;
-          height: 0.25rem;
-          top: -0.95rem;
-
-        }
-
-      }
-      span:nth-child(3){
-        position: absolute;
-        top: .52rem;
-        left: 2.15rem;
-        font-size: .24rem;
-        color: #ff3971;
-      }
-      span:nth-child(4){
-        position: absolute;
-        top: .52rem;
-        left: 4.25rem;
-        font-size: .24rem;
-        color: #ff3971;
-      }*!
-    }*/
 }
 header .phb-list .nav-tabs li:nth-child(1) a {
   text-align: center;
@@ -447,6 +359,7 @@ header .box .one {
   background-color: #ffe931;
 }
 header .box .img-one {
+  margin-left: 0.2rem!important;
   width: 1.26rem!important;
   height: 1.26rem!important;
   border: 0.02rem solid #ffe931 !important;
@@ -592,7 +505,7 @@ header #profile1 {
   border-top: transparent;
 }
 header .m-r {
-  left: 0.48rem!important;
+  left: 0.38rem!important;
   top: -0.15rem !important;
 }
 header .hg {
@@ -600,7 +513,7 @@ header .hg {
   height: 0.54rem;
   position: absolute;
   top: -0.1rem;
-  left: 0.57rem;
+  left: 0.48rem;
 }
 header .m-1 {
   margin-top: 0.15rem;
