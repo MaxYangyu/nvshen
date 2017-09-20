@@ -631,6 +631,8 @@ header .hd-name span {
   font-size: 0.24rem;
 }
 header .hd-name .jx {
+  width: 0.32rem;
+  height: 0.14rem;
   display: block;
   margin: 0 auto;
 }
