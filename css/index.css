@@ -47,7 +47,7 @@ header .Activity-Rules-info {
   border: 0.04rem solid #ff2ad6;
 }
 header .Activity-Rules-info .info-one {
-  height: 175px;
+  height: 135px;
 }
 header .Activity-Rules-info span {
   display: inline-block;
@@ -537,6 +537,12 @@ header .hd-name {
   width: 1.36rem;
   height: 0.32rem;
   margin: 0 auto;
+  /*    .xy-l{
+      display: block;
+    }
+    .xy-r{
+      display: none;
+    }*/
 }
 header .hd-name span {
   color: #fff;
@@ -547,6 +553,11 @@ header .hd-name span {
 header .hd-name .jx {
   width: 0.32rem;
   height: 0.14rem;
-  display: block;
   margin: 0 auto;
+}
+header .hd-name .btn-up {
+  padding-top: 0!important;
+}
+header .none {
+  display: none;
 }
