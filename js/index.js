@@ -1,20 +1,18 @@
 var btn = document.getElementById('btn');
 var obj = document.getElementById('myarticle');
+var btn = document.getElementById('btn');
 
 var total_height = obj.scrollHeight;
 
-console.log(btn)
-console.log(obj.style.height)
-console.log(total_height)
+
 btn.onclick = function () {
     if (obj.style.height<total_height){
         obj.style.height = total_height + 'px';
         btn.src = "img/组-8-拷贝@2x.png";
-        console.log(1)
     }else {
         obj.style.height = 135+ 'px';
         btn.src = "img/组-8@2x.png";
-        console.log(2)
+        obj.style.height =""
     }
 
 }
