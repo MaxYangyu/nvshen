@@ -1,6 +1,6 @@
 var btn = document.getElementById('btn');
 var obj = document.getElementById('myarticle');
-var btn = document.getElementById('btn');
+
 
 var total_height = obj.scrollHeight;
 
@@ -47,3 +47,7 @@ $('#profile1>.hd>.if').on('click', function () {
     $('#profile1>.xy-l').removeClass('none');
     $('#profile1>.xy-r').addClass('none');
 })
+
+
+
+
